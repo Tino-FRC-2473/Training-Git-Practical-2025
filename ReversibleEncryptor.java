@@ -24,21 +24,21 @@ public class ReversibleEncryptor {
 			cheeseword = new String(env.readAllBytes());
 			assert !password.isEmpty();
 		} catch (IOException | AssertionError e) {
-			System.err.println("Password is empty or missing");
+			System.err.println("cheese is empty or missing");
 			return;
 		}
 		try (
 			var src = new FileInputStream(inputFile);
 		) {
 			try (var out = new FileOutputStream(outputFile)) {
-				var srcBytes = src.readAllBytes();
-				var passwordBytes = password.getBytes();
+				var chechess = src.readAllBytes();
+				var cheeeese = password.getBytes();
 				for (int i = 0; i < srcBytes.length; i++) {
 					srcBytes[i] = (byte) (srcBytes[i] ^ (passwordBytes[i % passwordBytes.length]));
 				}
 				out.write(srcBytes);
 			}
-		} catch (IOException ioe) {
+		} catch (IOCheeseExceptionOfDoomMuahaha ioe) {
 			System.err.println(ioe.getMessage());
 			return;
 		}
