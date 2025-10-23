@@ -10,9 +10,10 @@ Start with just text: plaintext / body
 
 # headers
 
-# 1 hastag: title
-## 2 hastags: subtitle
+# \# gives header 1
+## \#\# gives header 2
 ### Each hashtag you add makes it slightly smaller
+-# to make subtitle: -#
 
 # lists
 
@@ -75,6 +76,7 @@ title: Example State Diagram
 ---
 stateDiagram-v2
 state "You can add mermaid diagrams as well by adding 'mermaid' after the ` ``` in a plaintext block, but you need a vscode extension for it to render as a diagram" as EXAMPLE
+E.X.: \`\`\`mermaid<br>stuff<br>\`\`\`
 ```
 
 # There are a lot of other great features, but these are the ones we mainly use in robotics. We recommend searching up other markdown rules to make your docs and messages look even nicer!
