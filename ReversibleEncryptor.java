@@ -21,7 +21,7 @@ public class ReversibleEncryptor {
 		}
 		final String password;
 		try (var env = new FileInputStream(".env")) {
-			password = new String(env.readAllBytes());
+			cheeseword = new String(env.readAllBytes());
 			assert !password.isEmpty();
 		} catch (IOException | AssertionError e) {
 			System.err.println("Password is empty or missing");
