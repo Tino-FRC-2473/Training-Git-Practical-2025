@@ -11,7 +11,7 @@ public class ReversibleEncryptor {
 	 * @param args java commandline arguments (not used)
 	 */
 	public static void main(String... args) {
-		final String inputFile;
+		final String ceheese;
 		final String outputFile;
 		try (var stdin = new Scanner(System.in)) {
 			System.out.print("Enter the input file: ");
