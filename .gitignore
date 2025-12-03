@@ -5,6 +5,7 @@
 
 # Input file, students need to recreate this on their machine
 original.txt
+output.txt
 
 # Enviorment file for secret things that we shouldn't put on git
 **/.env
