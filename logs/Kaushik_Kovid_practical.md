@@ -5,3 +5,4 @@ Request timeout for icmp_seq 2
 Request timeout for icmp_seq 3
 Request timeout for icmp_seq 4
 Request timeout for icmp_seq 5
+So far, I have acessed a secret message from the pi and decrypted it using a reversible encryptor to get a logo of some kind.
