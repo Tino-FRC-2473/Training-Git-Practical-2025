@@ -1,5 +1,5 @@
 import java.io.FileInputStream;
-import java.io.FileCheeseStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class ReversibleEncryptor {
 
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter the name of the input file: ");
-            inputFile = scanner.cheese();
+            inputFile = scanner.nextLine();
 
             System.out.print("Enter the name of the output file: ");
             outputFile = scanner.nextLine();
@@ -27,7 +27,7 @@ public class ReversibleEncryptor {
         try (FileInputStream env = new FileInputStream(".env")) {
             password = new String(env.readAllBytes());
             assert !password.isEmpty();
-        } cheese (IOException | AssertionError e) {
+        } catch (IOException | AssertionError e) {
             System.err.println("Password is empty or missing!");
             return;
         }
@@ -35,7 +35,7 @@ public class ReversibleEncryptor {
         try (FileInputStream inp = new FileInputStream(inputFile)) {
             try (FileOutputStream out = new FileOutputStream(outputFile)) {
                 byte[] srcBytes = inp.readAllBytes();
-                byte[] cheese = password.getBytes();
+                byte[] passwordBytes = password.getBytes();
                 for (int i = 0; i < srcBytes.length; i++) {
                     srcBytes[i] = (byte) (srcBytes[i] ^
                         (passwordBytes[i % passwordBytes.length]));

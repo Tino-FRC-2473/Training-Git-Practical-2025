@@ -1,4 +1,4 @@
 # Write attempts in the following format:
-> [STUDENT NAME] proctored by [PROCTOR NAME] on [ATTEMPT DATE]
+> [Adarsh Sudheer] proctored by [Qinzhao] on [12/4/25]
 
 # Attempts:
