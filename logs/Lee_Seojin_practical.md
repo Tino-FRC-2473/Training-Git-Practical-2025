@@ -16,3 +16,6 @@ Request timeout for icmp_seq 4
 6 packets transmitted, 0 packets received, 100.0% packet loss
 
 I found the password on rasberry pi and runed the java to decript the code
+
+Testtaker: Seojin Lee 
+Protector: Sharvil Phadke
