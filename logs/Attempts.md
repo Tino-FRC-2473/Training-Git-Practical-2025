@@ -1,5 +1,6 @@
 # Write attempts in the following format:
 > [Adarsh Sudheer] proctored by [Qinzhao] on [12/4/25]
+> Seojin proctored by Sharvil Phadke on December 8
 
 # Attempts:
 Aadi Kumbhat proctored by Sharvil on December 4th 2025.
