@@ -1,4 +1,4 @@
 # Write attempts in the following format:
-> [STUDENT NAME] proctored by [PROCTOR NAME] on [ATTEMPT DATE]
+> Seojin proctored by Sharvil Phadke on December 8
 
 # Attempts:
