@@ -17,5 +17,3 @@ Request timeout for icmp_seq 4
 
 I found the password on rasberry pi and runed the java to decript the code
 
-Testtaker: Seojin Lee 
-Protector: Sharvil Phadke
